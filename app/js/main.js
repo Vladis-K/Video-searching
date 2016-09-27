@@ -58,7 +58,7 @@ jQuery(document).ready(function(){
 
 				newContent += "<div class='videoCard'>";
 				newContent += " <iframe src=' "+ catalog[i].player +"' frameborder='0' allowfullscreen></iframe>";
-				newContent += "<div>" + timeWell(catalog[i].duration) ;
+				newContent += "<div>" + "<span>" + timeWell(catalog[i].duration) + "</span>";
 				newContent += "<div class='timemovie'>" +  compression(catalog[i].title) + "</div>";
 				newContent += "</div>";
 			}

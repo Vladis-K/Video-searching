@@ -21,13 +21,18 @@ body {
   top: 0;
   left: 0; }
 
+.videoCard div > span {
+  background-color: rgba(68, 157, 68, 0.3);
+  color: #1a237e;
+  padding: 0 3px; }
+
 .videoCard .timemovie {
   display: block;
   width: 100%;
   margin: 0;
   padding: 3px;
   font-weight: 400;
-  background-color: rgba(68, 157, 68, 0.5);
+  background-color: rgba(68, 157, 68, 0.6);
   height-max: 50px; }
 
 .btn, .form-control {
