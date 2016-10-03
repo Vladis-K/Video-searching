@@ -3,5 +3,5 @@ https://oauth.vk.com/authorize?client_id=5639926&display=page&https://oauth.vk.c
 
 
 Response:
-https://api.vk.com/method/video.search?q=баста&access_token=c47091528003e3dc264dacd197839194e18a45db435413e874c2f54e4fcdee89cd9effb81ea4750ee4f89&v=V
+https://api.vk.com/method/video.search?q=баста&access_token=9df7c1ea8a5ad47721281a36563dc437e678fd9ff3bd16f1c6877c3d3b8c3eef7e036227cd5d9617fa4ef&v=V
 
