@@ -3,8 +3,5 @@ https://oauth.vk.com/authorize?client_id=5639926&display=page&https://oauth.vk.c
 
 
 Response:
-https://api.vk.com/method/video.search?q=баста&access_token=cb835312c789fc440c8f1b25c3f247d498e88470da7d8ca3b6ec8bebaabae99e26db61b72673b363de42b&v=V
+https://api.vk.com/method/video.search?q=баста&access_token=c47091528003e3dc264dacd197839194e18a45db435413e874c2f54e4fcdee89cd9effb81ea4750ee4f89&v=V
 
-
-
-"<div>" + "<iframe class='mainMovie' src='" + this.player +"' frameborder='0' allowfullscreen></iframe>" + "</div>"  +

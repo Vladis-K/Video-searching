@@ -38,3 +38,9 @@ body {
 .btn, .form-control {
   -webkit-border-radius: 0;
   border-radius: 0; }
+
+#showElse {
+  margin-top: 30px; }
+
+.showAfterSearch {
+  display: none; }
