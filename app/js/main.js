@@ -23,7 +23,7 @@ jQuery(document).ready(function(){
 		var $textInput = $('input:text');
 		var getText = $textInput.serialize();
 		console.log(getText);
-		var access_token = "9df7c1ea8a5ad47721281a36563dc437e678fd9ff3bd16f1c6877c3d3b8c3eef7e036227cd5d9617fa4ef";
+		var access_token = "6163335e4598bab3731bad9e5e44d5f388a5a61cb9e24d9c1606525d03e0bca9e821bc2f681daee0e1fb4";
 
 		var searchLink = "https://api.vk.com/method/video.search?sort=2&" + getText +"&access_token="
 			             + access_token + "&v=V";
@@ -52,7 +52,6 @@ jQuery(document).ready(function(){
 				// var step = catalog.length;
 				var newContent = '';
 
-
 				var showinfo = function() {
 
 					for (var i = 0; i<5; i++) {
@@ -71,28 +70,22 @@ jQuery(document).ready(function(){
 
 				$('#newSubmit').on('click', showinfo());
 
-				$('#showElse').on('click', function() {
-
-					var initial = 2;
-
-					function checkIteration(initial) {
-						return initial = initial+2 ;
-					};
-
-					for (i = checkIteration(initial); i<(initial+2); i++) {
-						console.log(catalog[i]);
-						newContent += "<div class='videoCard'>";
-						newContent += " <iframe src=' "+ catalog[i].player +"' frameborder='0' allowfullscreen></iframe>";
-						newContent += "<div>" + "<span>" + timeWell(catalog[i].duration) + "</span>";
-						newContent += "<div class='timemovie'>" +  compression(catalog[i].title) + "</div>";
-						newContent += "</div>";
-					};
-
-
-					$('#videoframes').after(newContent);
-					return false;
-
-				});
+				// $('#showElse').on('click', function() {
+				// 	var initial = 2;
+				// 	function checkIteration(initial) {
+				// 		return initial = initial+2 ;
+				// 	};
+				// 	for (i = checkIteration(initial); i<(initial+2); i++) {
+				// 		console.log(catalog[i]);
+				// 		newContent += "<div class='videoCard'>";
+				// 		newContent += " <iframe src=' "+ catalog[i].player +"' frameborder='0' allowfullscreen></iframe>";
+				// 		newContent += "<div>" + "<span>" + timeWell(catalog[i].duration) + "</span>";
+				// 		newContent += "<div class='timemovie'>" +  compression(catalog[i].title) + "</div>";
+				// 		newContent += "</div>";
+				// 	};
+				// 	$('#videoframes').after(newContent);
+				// 	return false;
+				// });
 
 
 				// 1st variant
